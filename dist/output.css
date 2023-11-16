@@ -879,6 +879,10 @@ section{
   padding: 2rem;
 }
 
+.p-0{
+  padding: 0px;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -907,6 +911,10 @@ section{
 .py-24{
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.pt-0{
+  padding-top: 0px;
 }
 
 .text-left{
