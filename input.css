@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+    
+    body {
+        @apply tracking-wider font-inter;
+    }
+
+    section {
+        @apply pt-16 pb-4 md:pt-20;
+    }
+}
+
+
+@layer components {
+    .btn {
+        @apply inline-block text-base py-[18px] px-[38px] capitalize text-center cursor-pointer rounded-md ease-linear duration-200;
+    }
+
+    .btn-primary {
+        @apply hover:opacity-75;
+    }
+}
+
+@layer utilities {
+    .display {
+        @apply mt-8 text-4xl font-display font-semibold md:text-6xl lg:text-9xl text-lime-500
+    }
+
+    .header-1 {
+        @apply text-4xl mt-8 font-display lg:text-9xl font-semibold text-white
+    }
+
+    .header-3 {
+        @apply text-lg lg:text-2xl tracking-wide font-medium text-white md:mt-0 font-display
+    }
+
+    .card-overview {
+        @apply text-xs font-semibold tracking-wide uppercase text-white
+    }
+
+    .card-blue {
+        @apply p-8 lg:p-20 rounded-4xl lg:rounded-6xl
+    }
+
+    .card-content {
+        @apply text-white text-lg mt-8 lg:col-span-2
+    }
+
+    .separator {
+        @apply w-20 h-[1px] bg-white hidden md:block;
+    }
+
+    .partners {
+        @apply text-center text-sm font-medium leading-8 text-black
+    }
+
+    .paragraph {
+        @apply text-paragraphColor text-base leading-5;
+    }
+}
