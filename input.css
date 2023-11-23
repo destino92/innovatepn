@@ -65,4 +65,8 @@
     .paragraph {
         @apply text-paragraphColor text-base leading-5;
     }
+
+    .blob {
+        @apply bg-[url(/img/adult-students.jpg)] bg-cover bg-[center_center] w-[200px] h-[200px] rounded-full animate-pulse transition-all duration-[1s] ease-[ease-in-out];
+    }
 }
